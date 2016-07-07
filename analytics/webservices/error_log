@@ -1,0 +1,2 @@
+[11-Jun-2016 01:51:20 UTC] PHP Fatal error:  [] operator not supported for strings in /home/sreekharaelay32/public_html/projects/spatial/webservices/final_postions.php on line 65
+[11-Jun-2016 01:53:45 UTC] PHP Fatal error:  Call to undefined function checkCoordinates() in /home/sreekharaelay32/public_html/projects/spatial/webservices/final_postions.php on line 69

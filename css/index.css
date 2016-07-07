@@ -1,0 +1,189 @@
+/* CODE FOR RIPPLE EFFECT */
+/** START HERE **/
+
+button{
+  position: relative;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #89669b;
+  color: white;
+  padding: 18px 60px;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.fab{
+  border-radius: 50%;
+  margin:0;
+  padding: 20px;
+}
+
+.material{
+  position:relative;
+  color:white;
+  margin: 20px auto;
+  height:400px;
+  width:500px;
+  background:#f45673;
+  
+}
+
+.ripple{
+  overflow:hidden;
+}
+
+.ripple-effect{
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: white;
+
+    
+  animation: ripple-animation 2s;
+}
+
+
+@keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}
+
+/** END HERE **/
+
+/* DIALOGUE BOX CSS */
+/* START HERE */
+
+.dialog {
+  width: 10%;
+  z-index: 200;
+  height: 10%;
+  background: #F9F9F9;
+  border-radius: 2px;
+  padding: 24px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dialog p {
+  margin-bottom: 24px;
+  color: grey;
+  font: 400 17px Roboto;
+  line-height: 1.3;
+}
+
+.dialog .buttons {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+
+.dialog .buttons button {
+  background: transparent;
+  padding: 9px;
+  margin-left: 8px;
+  color: #00BCD4;
+  border: none;
+  outline: none;
+  font: 500 15px Roboto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* END HERE */
+
+html, body {
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  font-family: sans-serif;
+  background: url("images/Spatial-Map.jpeg");
+}
+
+.title {
+	margin: 0 auto;
+	padding-top: 2%;
+	height: 40%;
+	background-color: #000000;
+	color: #000000;
+	text-align: center;
+    font-size: 300%;
+	font-weight: bold;
+	z-index: 10;
+	box-shadow: 0px 10px 5px grey;
+	background: url("images/Cityfades.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.BoxShadow {
+	background-color: #FFFFFF;
+}
+
+.container {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	height: 25%;
+	width: 50%;
+	border-style: solid;
+	box-shadow: 10px 10px 10px -2px grey;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	z-index: 100;	
+}
+
+.TextAlignCenter {
+	text-align: center !important;
+}
+
+.WhiteText {
+	font-size: 175%;
+	color: #FFFFFF;
+}
+
+.ContainerTitle {
+	height: 15%;
+	padding-top: 2%;
+	width: 99%;
+}
+
+.DeveloperTextStyle {
+    overflow: auto;
+    border: none;
+    color: #737373 !important;
+    font-style: italic;
+    margin: 2%;
+	height: 50%;
+	width: 85%;
+    font-size: 125% !important;
+	padding: 2%;
+}
+
+.ButtonStyle {
+    border-radius: 5%;
+    width: 20%;
+    height: 25%;
+    margin-top: 2%;
+	padding: 0px;
+    background: #000000;
+    font-size: 125% !important;
+    color: white;
+    cursor: pointer;
+}
+
+.BlackText {
+	font-size: 175%;
+	color: #000000;
+}

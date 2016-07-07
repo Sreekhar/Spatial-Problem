@@ -1,0 +1,132 @@
+html, body {
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  font-family: sans-serif;
+  background: url("images/CityfadesLight.jpeg");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.TextAlignCenter {
+	text-align: center !important;
+}
+
+.Overalltitle {
+    border-color: #DDB9AD;
+    border-style: solid;
+    border-width: 2px;	
+	height: 75px;
+}
+
+.title {
+	border-color: #fff;
+    border-style: solid;
+    border-width: 2px;	
+	background-color: #fe2c47;
+	margin-right: 5%;
+	width: 500px;
+}
+
+.newtitle {
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;	
+	background-color: #fe2c47;
+}
+
+.titleLat, .titleLong {
+	width: 20%;
+}
+
+.titleID {
+	width: 15%;
+}
+
+.titleTweet {
+	width: 45%;
+}
+
+.TweetDetails {
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.OverflowTweetDetails {
+	height: 400px;
+}
+
+.TweetStyle  {
+	white-space: nowrap;
+    overflow: hidden;
+    font-size: 100% !important;
+    margin: 10px 10px;
+    text-overflow: ellipsis;
+	border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.DisplayInline {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.WhiteText {
+	font-size: 175%;
+	font-family: "Segoe UI", Myriad Pro, abscissa;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.BlackText {
+	font-size: 175%;
+	font-family: "Segoe UI", Myriad Pro, abscissa;
+	color: #000000;
+	font-weight: bold;
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-style: inset;
+    border-width: 2px;
+    box-shadow: 4px 4px 5px #888888;
+	background-color: white;
+}
+
+.LoadingContainer {
+	background: url("images/loading.gif") no-repeat center;
+    height: 700px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-style: inset;
+    border-width: 2px;
+    box-shadow: 4px 4px 5px #888888;
+	background-color: white;
+}
+
+#ChartContainer {
+	margin-top: 50px;
+    height: 680px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
